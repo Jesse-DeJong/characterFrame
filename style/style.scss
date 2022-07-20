@@ -1,0 +1,35 @@
+.charPane {
+    display: flex;
+    flex-direction: column;
+    border: 1px yellow solid;
+    align-items: center;
+
+    &__middle {
+        display: flex;
+    }
+
+    &__leftpanel {
+        &__itemslot {
+            border: 1px red solid;
+            height: 50px;
+            width:  50px;
+            margin: 2px;
+        }
+    }
+
+    &__middlepanel {
+        border: 1px grey solid;
+        height: 416px;
+        width:  350px;
+    }
+
+    &__rightpanel {
+        
+        &__itemslot {
+            border: 1px green solid;
+            height: 50px;
+            width:  50px;
+            margin: 2px;
+        }
+    }
+}

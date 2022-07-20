@@ -1,0 +1,26 @@
+.charPane {
+  display: flex;
+  flex-direction: column;
+  border: 1px yellow solid;
+  align-items: center;
+}
+.charPane__middle {
+  display: flex;
+}
+.charPane__leftpanel__itemslot {
+  border: 1px red solid;
+  height: 50px;
+  width: 50px;
+  margin: 2px;
+}
+.charPane__middlepanel {
+  border: 1px grey solid;
+  height: 416px;
+  width: 350px;
+}
+.charPane__rightpanel__itemslot {
+  border: 1px green solid;
+  height: 50px;
+  width: 50px;
+  margin: 2px;
+}
