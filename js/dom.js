@@ -1,0 +1,1 @@
+export const pane = document.getElementById(`charPane`);
