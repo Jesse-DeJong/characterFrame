@@ -19,14 +19,27 @@
 
     &__middlepanel {
         border: 1px grey solid;
-        height: 416px;
-        width:  350px;
+        height: 428px;
+        width:  300px;
+        margin-top: 2px;
     }
 
     &__rightpanel {
-        
         &__itemslot {
             border: 1px green solid;
+            height: 50px;
+            width:  50px;
+            margin: 2px;
+        }
+    }
+
+    &__bottompanel {
+        &__list {
+            display: flex;
+            flex-direction: row;
+        }
+        &__itemslot {
+            border: 1px orange solid;
             height: 50px;
             width:  50px;
             margin: 2px;
